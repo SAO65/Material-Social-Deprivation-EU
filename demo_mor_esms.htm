@@ -1,0 +1,1001 @@
+<html xmlns:xalan="http://xml.apache.org/xalan" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" /> 
+  <title>Mortality (demo_mor)</title> 
+  <style type="text/css">@page Section1 {size: 595.3pt 841.9pt; margin: 70.85pt 70.85pt 70.85pt 70.85pt;}
+				.Section1{background-color:white; font-family:Times New Roman,Arial,sans-serif;}
+				div.Section1 :link,
+				div.Section1 :visited {COLOR:#0F4BA0;text-decoration: underline; background: none; line-height:120%; display:inline; text-align:left;}
+				.DocCommon,P.DocCommon {FONT-SIZE:11pt; font-weight:normal; MARGIN:0;}
+				.Heading {font-family:Times New Roman,Arial,sans-serif;font-size:13pt !important; font-weight:normal; MARGIN:0 !important; text-align:center; background-color:#ffcc99; color:#000000;}
+				LI.DocCommon {FONT-SIZE:11pt; MARGIN:0;}
+				DIV.DocCommon {FONT-SIZE:11pt; MARGIN:0;}
+				DIV.Section1 {page: Section1}
+				div.Section1 img {border:0; margin:0; padding:0;}
+				.TblBottom {border-collapse:collapse; border:none;}
+				.Cl-Level1 {border:solid black 1pt; background-color:#ffcc99; color:#000000; padding:2pt 6.45pt 2pt 6.45pt; vertical-align: top;}
+				.Cl-Level1, .Cl-Level1-NoBorder {FONT-SIZE:16pt; font-weight:bold; text-align:left; margin:0;}
+				.Cl-Level2 {border:solid black 1pt; padding:1pt 6.45pt 1pt 6.45pt; background-color: #ffffcc; vertical-align: top;}
+				.Cl-Level2, .Cl-Level3, .Cl-Level4 {FONT-SIZE:11pt; font-weight:bold;}
+				.Cl-Level3, .Cl-Level4 {border:solid black 1pt; padding:1pt 6.45pt 1pt 25.35pt; background-color: #ffffdd; vertical-align:top;}
+				.Cl-Level4 {padding-left: 44.25pt}
+				.Cl-Content {border:solid black 1pt; padding:1pt 6.45pt 1pt 6.45pt; height:15pt; vertical-align: top;}
+				.Cl-Content {FONT-SIZE:11pt; font-weight:normal;}
+				div#html-preview p {font-size:11pt; font-weight:normal; padding:0; margin:2px 0px 2px 0px;}
+				.annexesHead {FONT-SIZE:13pt; font-weight: bold;}
+				.padding-10 { padding: 10px; }
+				#print-icon {position: absolute; z-index: 1000;width: 99%; text-align:right; margin-right: 0px; margin-top: 130px; }
+				#html-preview {font-family: Times New Roman,Arial,sans-serif;}
+				.relatedMdBox {width:110px; margin-right:10px; float:left;height: 40px;}
+				#html-preview li {font-size:11pt; float: none !important;list-style-position:inside !important;margin-left: 15px;padding-left: 0;}
+				#html-preview ul li {list-style-type:disc !important;}
+				#html-preview ol li {list-style-type:decimal !important;}
+			</style> 
+  <script type="text/javascript">
+				function printElement(selector, title) {
+					$(selector).jqprint();
+				}
+			</script> 
+ </head> 
+ <body> 
+  <div id="html-preview"> 
+   <div class="Section1"> 
+    <a name="top"></a> 
+    <table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+     <tbody>
+      <tr> 
+       <td valign="top" width="127"><img src="http://ec.europa.eu/eurostat/cache/metadata/img/estat_ce-05.GIF" /></td>
+       <td valign="top"> 
+        <table align="center" cellpadding="5pt" cellspacing="0" border="0"> 
+         <tbody>
+          <tr> 
+           <td style="border:solid grey 1pt;" class="Heading"> <p style="FONT-SIZE:20pt !important;FONT-WEIGHT:bold;" class="Heading">Mortality (demo_mor)</p> <p style="line-height:150%" class="Heading">Reference Metadata in Euro SDMX Metadata Structure (ESMS)</p> <p class="Heading"> Compiling agency: Eurostat, the statistical office of the European Union.</p> </td> 
+          </tr> 
+         </tbody>
+        </table> </td>
+       <td width="127"></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td valign="top" width="45%"> 
+        <table width="80%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+         <tbody>
+          <tr> 
+           <td style="text-align:center;" class="Cl-Level1">Eurostat metadata</td> 
+          </tr> 
+          <tr> 
+           <td align="center" style="border-bottom:none" class="Cl-Content"><b>Reference metadata</b></td> 
+          </tr> 
+          <tr> 
+           <td style="border-top:none" class="Cl-Content"><a href="#contact1497012073603">1. Contact</a> <br /> <a href="#meta_update1497012073603">2. Metadata update</a> <br /> <a href="#stat_pres1497012073603">3. Statistical presentation</a> <br /> <a href="#unit_measure1497012073603">4. Unit of measure</a> <br /> <a href="#ref_period1497012073603">5. Reference Period</a> <br /> <a href="#inst_mandate1497012073603">6. Institutional Mandate</a> <br /> <a href="#conf1497012073603">7. Confidentiality</a> <br /> <a href="#rel_policy1497012073603">8. Release policy</a> <br /> <a href="#freq_diss1497012073603">9. Frequency of dissemination</a> <br /> <a href="#accessibility_clarity1497012073603">10. Accessibility and clarity</a> <br /> <a href="#quality_mgmnt1497012073603">11. Quality management</a> <br /> <a href="#relevance1497012073603">12. Relevance</a> <br /> <a href="#accuracy1497012073603">13. Accuracy</a> <br /> <a href="#timeliness_punct1497012073603">14. Timeliness and punctuality</a> <br /> <a href="#coher_compar1497012073603">15. Coherence and comparability</a> <br /> <a href="#cost_burden1497012073603">16. Cost and Burden</a> <br /> <a href="#data_rev1497012073603">17. Data revision</a> <br /> <a href="#stat_process1497012073603">18. Statistical processing</a> <br /> <a href="#comment_dset1497012073603">19. Comment</a> <br /> <a href="#relatedmd1497012073603">Related Metadata</a> <br /> <a href="#annex1497012073603">Annexes</a> (including footnotes) </td> 
+          </tr> 
+         </tbody>
+        </table> </td>
+       <td width="10%"></td>
+       <td valign="top" width="45%"></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" class="DocCommon" cellpadding="0" cellspacing="0" border="0"> 
+     <tbody>
+      <tr> 
+       <td> <br />For any question on data and metadata, please contact: <a target="_blank" href="http://ec.europa.eu/eurostat/help/support">EUROPEAN STATISTICAL DATA SUPPORT</a></td>
+       <td width="2%"></td>
+       <td valign="bottom" align="right"> <p style="text-align:right;margin-right:20px;" class="DocCommon"> <a href="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/demo_mor_esms.sdmx.zip">Download </a> <br /> </p> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="contact"></a><a name="contact1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">1. Contact</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td width="206" class="Cl-Level2"><a name="contact_organisation"></a>1.1. Contact organisation</td>
+       <td class="Cl-Content"><p>Eurostat, the statistical office of the European Union.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="organisation_unit"></a>1.2. Contact organisation unit</td>
+       <td class="Cl-Content"><p>Unit F2: Population and migration.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="contact_mail"></a>1.5. Contact mail address</td>
+       <td class="Cl-Content"><p>2920 Luxembourg LUXEMBOURG</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="meta_update"></a><a name="meta_update1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">2. Metadata update</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td width="206" class="Cl-Level2"><a name="meta_certified"></a>2.1. Metadata last certified</td>
+       <td class="Cl-Content">08/06/2017</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="meta_posted"></a>2.2. Metadata last posted</td>
+       <td class="Cl-Content">08/06/2017</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="meta_last_update"></a>2.3. Metadata last update</td>
+       <td class="Cl-Content">08/06/2017</td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="stat_pres"></a><a name="stat_pres1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">3. Statistical presentation</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="data_descr"></a>3.1. Data description</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Eurostat’s annual data collections on demographic statistics are structured as follows:</p> 
+        <table style="width: 100%;" border="1" cellspacing="1" cellpadding="3"> 
+         <thead> 
+          <tr> 
+           <td width="11%"> <p><strong>Data Collection</strong></p> </td> 
+           <td width="88%"> <p><strong>Info & Legislation</strong></p> </td> 
+          </tr> 
+         </thead> 
+         <tbody> 
+          <tr> 
+           <td width="11%"> <p><strong>NOWCAST</strong></p> </td> 
+           <td style="text-align: justify;" width="88%"> <p>Annual data collection on provisional monthly data on live births and deaths covering at least six months of the reference year (Article 4.3 of the Commission implementing regulation (EU) No 205/2014)</p> </td> 
+          </tr> 
+          <tr> 
+           <td width="11%"> <p><strong>DEMOBAL</strong></p> <p><strong>Demographic balance</strong></p> </td> 
+           <td style="text-align: justify;" width="88%"> <p>Annual data collection on provisional data on population, total live births and total deaths at national level (Article 4.1 of the Commission implementing regulation (EU) No 205/2014)</p> </td> 
+          </tr> 
+          <tr> 
+           <td width="11%"> <p><strong>UNIDEMO </strong><br /> <strong>Unified Demographic</strong></p> </td> 
+           <td width="88%"> <p style="text-align: justify;">The most in-depth annual national and regional demographic and migration data collection. The data relate to populations, births, deaths, immigrants, emigrants, marriages and divorces, and is broken down into several categories (Article 3 of <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32013R1260&qid=1448963912215&from=EN" target="_blank">Regulation (EU) No 1260/2013</a> and Article 3 of <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32007R0862&qid=1448964364407&from=EN" target="_blank">Regulation (EC) No 862/2007).</a></p> </td> 
+          </tr> 
+         </tbody> 
+        </table> <p style="text-align: justify;">The aim is to collect annual mandatory and voluntary demographic data from the national statistical institutes. Mandatory data are those defined by the legislation listed under ‘6.1. Institutional mandate - legal acts and other agreements’.</p> <p style="text-align: justify;">The completeness of the demographic data collected on a voluntary basis depends on the availability and completeness of information provided by the national statistical institutes. For more information on mandatory/voluntary data collection, see 6.1. Institutional mandate - legal acts and other agreements’.</p> <p style="text-align: justify;"><strong>The following statistics on deaths are collected from the National Statistical Institutes:</strong></p> 
+        <ul style="text-align: justify;"> 
+         <li>Deaths by month of occurrence</li> 
+         <li>Deaths by age, year of birth, sex and by:</li> 
+        </ul> <p style="padding-left: 60px; text-align: justify;">- Region (NUTS 2) of residence;<br /> - Region (NUTS 3) of residence;<br /> - Country of birth;<br /> - Country of citizenship;<br /> - Legal marital status;<br /> - Educational attainment (ISCED 2011).</p> 
+        <ul style="text-align: justify;"> 
+         <li>Infant deaths by age and sex;</li> 
+         <li>Infant deaths by parents' level of educational attainment (ISCED);</li> 
+         <li>Late foetal deaths by mother's age.</li> 
+        </ul> <p style="text-align: justify;"><strong>Statistics on mortality: based on the different breakdowns of data on deaths received, Eurostat produces the following:</strong></p> 
+        <ul style="text-align: justify;"> 
+         <li>Statistics available in the online table Population change - Demographic balance and crude rates at national level (demo_gind):</li> 
+        </ul> <p style="padding-left: 60px; text-align: justify;">- Natural change of population, crude death rate.</p> 
+        <ul style="text-align: justify;"> 
+         <li>Statistics available in the online table Infant mortality rates (demo_find):</li> 
+        </ul> <p style="padding-left: 60px; text-align: justify;">- Infant mortality rate;<br />- Neonatal mortality rate;<br />- Early neonatal mortality rate;<br />- Late foetal mortality rate;<br />- Perinatal mortality rate.</p> 
+        <ul style="text-align: justify;"> 
+         <li>Life table (demo_mlifetable);</li> 
+         <li>Life expectancy by age and sex (demo_mlexpec);</li> 
+         <li>Life expectancy by age, sex and educational attainment (ISCED 1997) (demo_mlexpecedu).</li> 
+        </ul> <p style="text-align: justify;">Information about statistics on deaths by NUTS regions can be found <a href="http://ec.europa.eu/eurostat/cache/metadata/en/demo_r_gind3_esms.htm">here</a>.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="class_system"></a>3.2. Classification system</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>The following classification systems are used:</p> <p>- International standard classification on education (<a href="http://www.uis.unesco.org/Education/Documents/isced-2011-en.pdf" target="_blank">ISCED</a>)</p> <p>- Nomenclature of territorial units for statistics (<a href="http://ec.europa.eu/eurostat/web/nuts/overview" target="_blank">NUTS 2013</a>)</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="coverage_sector"></a>3.3. Coverage - sector</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="stat_conc_def"></a>3.4. Statistical concepts and definitions</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;"><strong>Death </strong>means the permanent disappearance of all evidence of life at any time after life birth has taken place (postnatal cessation of vital functions without capability of resuscitation).</p> <p style="text-align: justify;"><strong>Infant death</strong> means the death of a live-born infant who has not yet completed 1 year of life.</p> <p style="text-align: justify;"><strong>Foetal death</strong> means the death prior to the complete expulsion or extraction from its mother of a product of conception, irrespective of the duration of pregnancy, the death being indicated by the fact that after such separation the foetus does not breathe or show any other evidence of life, such as beating of the heart, pulsation of the umbilical cord or definite movement of voluntary muscles.</p> <p style="text-align: justify;"><strong>Late foetal death</strong> means foetal deaths of 28 weeks or more of completed weeks of gestation.</p> <p style="text-align: justify;"><strong>Stillbirth</strong> means the expulsion or extraction from the mother of a dead foetus after the time at which it would normally be presumed capable of independent extra uterine existence (commonly taken to be after 24 or 28 weeks of gestation). Infants who are born alive but die shortly after birth are excluded from this category.</p> <p style="text-align: justify;">C<strong>rude death rate:</strong> the ratio of the number of deaths during the year to the average population in that year. The value is expressed per 1000 population.</p> <p style="text-align: justify;"><strong>Infant mortality rate</strong>: the ratio of the number of deaths of children under one year of age during the year to the number of live births in that year. The value is expressed per 1000 live births.</p> <p style="text-align: justify;"><strong>Early neonatal mortality rate</strong>: the ratio of the number of deaths of children under one week during the year to the number of live births in that year. The value is expressed per 1000 live births.</p> <p style="text-align: justify;"><strong>Late foetal mortality rate</strong>: the ratio of the number of still births during the year to the number of total births (live births + still births) in that year. The value is expressed per 1000 births.</p> <p style="text-align: justify;"><strong>Neonatal mortality rate: </strong>the ratio of the number of deaths of children under 28 days during the year to the number of live births in that year. The value is expressed per 1000 live births</p> <p style="text-align: justify;"><strong>Perinatal mortality rate: </strong>the ratio of the number of deaths of children under one week and the stillbirths during the year, to the number of births in that year (including still births). The value is expressed per 1000 births.</p> <p style="text-align: justify;"><strong>Life expectancy </strong>at certain ages represents the mean number of years still to be lived by a person who has reached a certain exact age, if subjected throughout the rest of his or her life to the current mortality conditions (age-specific probabilities of dying).</p> <p style="text-align: justify;">The <strong>Life table</strong> is one of the most important and most widely used devices in demography, summarizing various aspects of the variation of mortality with age and showing, for each age, the probability that a person of that age will die before their next birthday. One column of the table is "age" followed by columns that tabulate age-related functions pertaining to mortality: the numbers of survivors to various ages, deaths in particular age intervals, age specific death rates, probabilities of death in various age intervals, and life expectancy at given exact age. The methodology for the calculation of Life table can be consulted in "Annex" at the bottom of the page.</p> <p style="text-align: justify;"><strong>Age definition:</strong></p> <p style="text-align: justify;">Most National Statistical Institutes of the EU Member States provide data on the number of deaths by two "age" related concepts: age at last birthday and year of birth. Deaths data are compiled and disseminated, based on the data collected, as follows:</p> <p style="text-align: justify;">- by age completed (age at last birthday), and</p> <p style="text-align: justify;">- by age reached during the year (reference year minus year of birth of the deceased person).</p> <p style="text-align: justify;">The availability of data on deaths by the two concepts among the countries starts at different moment of time series. <strong>Eurostat uses the concept of age completed when calculating mortality indicators.</strong></p> <p style="text-align: justify;"><strong>The open-ended age class </strong>(Y_OPEN code in the AGE dimension in the online data tables) is a way of presenting different open-ended age classes for data on deaths by age provided by the countries. An open-ended age class contains all the people older than the last single age for which a country can provide data. For example, if a country can provide data on deaths by single year of age up to 94, the open-ended age class contains people aged 95 and over.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="stat_unit"></a>3.5. Statistical unit</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>The statistical unit used is ''number'', as indicated in the online database or by the title of tables.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="stat_pop"></a>3.6. Statistical population</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>The statistical population is the total population. For more information on the population concepts used, please see the reference metadata on <a href="http://ec.europa.eu/eurostat/cache/metadata/en/demo_pop_esms.htm" target="_blank">Population</a>.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="ref_area"></a>3.7. Reference area</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">The deaths statistics are disseminated by single country, by region and by aggregates of countries, as follows:</p> <p style="text-align: justify;"><strong>a)</strong> <a href="http://europa.eu/about-eu/countries/member-countries/" target="_blank">EU member countries</a> and their regional structure as defined by the <a href="http://ec.europa.eu/eurostat/web/nuts/overview" target="_blank">Nomenclature of territorial units for statistics.</a></p> <p style="text-align: justify;"><strong>b)</strong> <a href="http://ec.europa.eu/economy_finance/international/non_eu/candidate/index_en.htm">EU candidate countries</a> and their regional structure, also based on the NUTS regional classification system.</p> <p style="text-align: justify;"><strong>c)</strong> <a href="http://www.efta.int/about-efta/the-efta-states">European Free Trade Assoication (EFTA) countries</a> and their agreed statistical regions, also based on the NUTS regional classification system.</p> <p style="text-align: justify;"><strong>d)</strong> Other countries: Andorra, Armenia, Azerbaijan, Belarus, Bosnia and Herzegovina, Georgia, Moldova, Russian Federation, San Marino, Kosovo (under UNSCR 1244) and Ukraine.</p> <p style="text-align: justify;"><strong>e)</strong> The geographical aggregates: European Union and euro area (dissemination covers at least their current and previous form), the European Economic Area (EEA) and the EFTA.</p> <p style="text-align: justify;">For details on geographical changes that have taken place over time, see the notes by country under <strong>15.2 Comparability over time.</strong></p> <p style="text-align: justify;"><strong>National </strong>refers to the territory of a Member State within the meaning of <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1059&qid=1448964741009&from=EN" target="_blank">Regulation (EC) No 1059/2003,</a> applicable at the reference time.</p> <p style="text-align: justify;"><strong>Regional</strong> refers to <strong>NUTS level 1</strong>, <strong>NUTS level 2</strong> or <strong>NUTS level 3</strong> as defined in <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1059&qid=1448964741009&from=EN" target="_blank">Regulation (EC) No 1059/2003</a> and according to the classification in force at the reference time. When this term is used in connection with countries that are not members of the European Union, 'regional' means the statistical regions at level 1, 2 or 3 as agreed between those countries and the Commission (Eurostat), at the reference time.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="coverage_time"></a>3.8. Coverage - Time</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">The time series compiled and published in the Eurostat database varies, depending on the breakdowns, with the longest time series starting in <strong>1960</strong> for national data and <strong>1990</strong> for regional data, and continuing through to the latest available reference year.</p> <p style="text-align: justify;">The completeness of the time series for demographic and migration statistics collected on a voluntary basis before the regulations listed under ‘6.1 Institutional mandate - legal acts and other agreements’ entered into force, and for statistics that continue to be supplied to Eurostat on a voluntary basis, depends on the availability of data sent to Eurostat by the national statistical institutes.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="base_per"></a>3.9. Base period</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="unit_measure"></a><a name="unit_measure1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">4. Unit of measure</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Data on deaths are disseminated as integer numbers and as rates.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="ref_period"></a><a name="ref_period1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">5. Reference Period</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>The reference period for vital events data is the calendar year in which the events occurred. For the monthly time series the reference period is the month of occurrence.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="inst_mandate"></a><a name="inst_mandate1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">6. Institutional Mandate</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="inst_man_la_oa"></a>6.1. Institutional Mandate - legal acts and other agreements</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;"><strong>Documents</strong></p> <p style="text-align: justify;"><a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32007R0862&qid=1448964364407&from=EN" target="_blank">Regulation (EC) No 862/2007</a> of the European Parliament and of the Council of 11 July 2007 on Community statistics on migration and international protection and repealing Council Regulation (EEC) No 311/76 on the compilation of statistics on foreign workers.</p> <p style="text-align: justify;">Commission <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32010R0351&qid=1449065484179&from=EN" target="_self">Regulation (EU) No 351/2010</a> implementing <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32007R0862&qid=1448964364407&from=EN" target="_blank">Regulation (EC) No 862/2007</a> on Community statistics on migration and international protection as regards the definitions of the categories of the groups of country of birth, groups of country of previous usual residence, groups of country of next usual residence and groups of citizenship.</p> <p style="text-align: justify;"><a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32013R1260&qid=1448963912215&from=EN" target="_blank">Regulation (EU) No 1260/2013</a> of the European Parliament and of the Council on European demographic statistics.</p> <p style="text-align: justify;">Commission Implementing <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0205&qid=1449066734185&from=EN" target="_blank">Regulation (EU) No 205/2014</a> for the implementation of <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32013R1260&qid=1448963912215&from=EN" target="_blank">Regulation (EU) No 1260/2013</a><span style="text-decoration: underline;">.</span></p> <p style="text-align: justify;">Commission <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011R0031&qid=1449067197038&from=EN" target="_blank">Regulation (EU) No 31/2011</a> of 17 January 2011 amending annexes to <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1059&qid=1448964741009&from=EN" target="_blank">Regulation (EC) No 1059/2003</a> of the European Parliament and of the Council on the establishment of a common classification of territorial units for statistics (NUTS).</p> <p style="text-align: justify;">Commission <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R1046&qid=1449068016242&from=EN" target="_blank">Regulation (EU) No 1046/2012</a> on implementing <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1059&qid=1448964741009&from=EN" target="_blank">Regulation (EC) No 1059/2003</a> of the European Parliament and of the Council on the establishment of a common classification of territorial units for statistics (NUTS), as regards the transmission of the time series for the new regional breakdown.</p> <p style="text-align: justify;">Commission <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0868&qid=1449068979054&from=EN" target="_blank">Regulation (EU) No 868/2014</a> amending the annexes to <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1059&qid=1448964741009&from=EN" target="_blank">Regulation (EC) No 1059/2003</a> of the European Parliament and of the Council on the establishment of a common classification of territorial units for statistics (NUTS) (legislation reflects NUTS2013 classification currently in force).</p> <p style="text-align: justify;">Commission <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32013R1319&qid=1449067828827&from=EN" target="_blank">Regulation (EU) No 1319/2013</a> of 9 December 2013 amending annexes to <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003R1059&qid=1448964741009&from=EN" target="_blank">Regulation (EC) No 1059/2003</a> of the European Parliament and of the Council on the establishment of a common classification of territorial units for statistics (NUTS) (legislation reflects NUTS2013 classification currently in force).</p> <p style="text-align: justify;">Data collected on a voluntary basis include:</p> 
+        <ul> 
+         <li style="text-align: justify;">Deaths by sex, age, year of birth and legal marital status;</li> 
+         <li style="text-align: justify;">Deaths by sex, age, year of birth and educational attainment (ISCED 2011);</li> 
+         <li style="text-align: justify;">Infant deaths by age and sex;</li> 
+         <li style="text-align: justify;">Infant deaths by mother's educational attainment (ISCED 2011) and father’s educational attainment (ISCED 2011);</li> 
+         <li style="text-align: justify;">Late foetal deaths by mother's age.</li> 
+        </ul></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="inst_man_shar"></a>6.2. Institutional Mandate - data sharing</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="conf"></a><a name="conf1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">7. Confidentiality</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="conf_policy"></a>7.1. Confidentiality - policy</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;"><a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:087:0164:0173:En:PDF" target="_blank">Regulation (EC) No 223/2009 on European statistics</a> (recital 24 and Article 20(4)) of 11 March 2009 (OJ L 87, p. 164), stipulates the need to establish common principles and guidelines ensuring the confidentiality of data used for the production of European statistics and the access to those confidential data with due account for technical developments and the requirements of users in a democratic society and Amending Regulation (EU) No 2015/759 of 29 April 2015 as regards the violation of statistical confidentiality.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="conf_data_tr"></a>7.2. Confidentiality - data treatment</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="rel_policy"></a><a name="rel_policy1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">8. Release policy</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="rel_cal_policy"></a>8.1. Release calendar</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content">
+        <table style="width: 527px;" border="1" cellspacing="1" cellpadding="3"> 
+         <tbody> 
+          <tr> 
+           <td> <p><strong>Calendar</strong></p> </td> 
+           <td> <p><strong>Data Collection</strong></p> </td> 
+          </tr> 
+          <tr> 
+           <td> <p>July of year T</p> </td> 
+           <td> <p>Total number of deaths in year T-1</p> </td> 
+          </tr> 
+          <tr> 
+           <td> <p>February<br /> March of year T+1</p> </td> 
+           <td> <p>Deaths during year T-1 by</p> <p>     - month</p> <p>     - detailed characteristics</p> <p>Mortality indicators of year T-1</p> </td> 
+          </tr> 
+          <tr> 
+           <td> <p>July of year T+1</p> </td> 
+           <td> <p>Total number of deaths in year T</p> </td> 
+          </tr> 
+         </tbody> 
+        </table> <p>where T is the reference year for the deaths data, respectively the year when the deaths occurred.</p> <p><strong>Notes:</strong></p> <p style="text-align: justify;"><strong>The most up-to-date data on deaths</strong> are in the ''Demographic balance and crude rates (demo_gind)'' table in the online database. This table includes the latest updates (or revised data) on total population, births and deaths reported by the countries. The detailed breakdowns by various characteristics included in the rest of the tables can be sent to Eurostat at a later date.</p> <p style="text-align: justify;">There are a few situations in which different figures for deaths statistics might be displayed in different population tables at a given moment in time:</p> <p style="text-align: justify;">- Timing of data sending/resending if the live births statistics based on various breakdowns are revised.  <br /> - The order of the annual demography data collections described above, updating the total live births and the breakdowns of live births figures by various characteristics at differenttimes during the calendar year.<br /> - The calendar of the national statistical institutes for producing and releasing live births statistics broken down by characteristics that fall under voluntary data collection/when data are sent to Eurostat (timing).</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="rel_cal_access"></a>8.2. Release calendar access</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not available.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="rel_pol_us_ac"></a>8.3. Release policy - user access</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">In line with the Community legal framework and the <a href="http://ec.europa.eu/eurostat/product?code=KS-32-11-955&mode=view&language=en" target="_blank">European Statistics Code of Practice</a> Eurostat disseminates European statistics on Eurostat's website (see item 10 - 'Accessibility and clarity') respecting professional independence and in an objective, professional and transparent manner in which all users are treated equitably. The detailed arrangements are governed by the <a href="http://ec.europa.eu/eurostat/product?code=IMPARTIAL_ACCESS_2012_OCT&mode=view&language=en" target="_blank">Eurostat protocol on impartial access to Eurostat data for users</a>.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="freq_diss"></a><a name="freq_diss1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">9. Frequency of dissemination</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">The statistics on deaths are continuously revised according to the most recent data released and sent to Eurostat by the national statistical institutes. The geographical aggregates and the demographic indicators are revised accordingly.</p> <p style="text-align: justify;">The statistics are published in line with the information in <strong>8.1 Release calendar</strong> and <strong>17.1 Data revision-policy</strong>.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="accessibility_clarity"></a><a name="accessibility_clarity1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">10. Accessibility and clarity</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="news_rel"></a>10.1. Dissemination format - News release</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>News releases on-line.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="publications"></a>10.2. Dissemination format - Publications</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p><a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Category:Population">Statistics Explained articles on Eurostat website</a></p> <p><a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Europe_in_figures_-_Eurostat_yearbook">Eurostat yearbook</a></p> <p><a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Eurostat_regional_yearbook">Eurostat regional yearbook</a></p> <p><a href="http://ec.europa.eu/eurostat/web/population-demography-migration-projections/publications">Domain-specific publications</a></p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="online_db"></a>10.3. Dissemination format - online database</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Eurostat’s Data Navigation Tree.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="micro_dat_acc"></a>10.4. Dissemination format - microdata access</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="diss_other"></a>10.5. Dissemination format - other</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="doc_method"></a>10.6. Documentation on methodology</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p><a href="http://ec.europa.eu/eurostat/documents/3859598/6851536/KS-GQ-15-002-EN-N/7d6ba1c1-fa04-464b-89ff-ec8796b2db5d">"Demographic statistics: A review of definitions and methods of collection in 44 European countries"</a>, Eurostat, 2015 edition.</p> <p>More information regarding methodology by country is in Annexes.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="quality_doc"></a>10.7. Quality management - documentation</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not available.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="quality_mgmnt"></a><a name="quality_mgmnt1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">11. Quality management</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="quality_assure"></a>11.1. Quality assurance</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Quality assurance is part of data processing. Statistical products and processes are systematically reviewed in compliance with <a href="http://ec.europa.eu/eurostat/documents/3859598/5923349/QAF_2012-EN.PDF/fcdf3c44-8ab8-41b8-9fd0-91bd1299e3ef?version=1.0">Quality Assurance Framework of the European Statistical System</a></p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="quality_assmnt"></a>11.2. Quality management - assessment</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">The Art 11 of the <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32013R1260&qid=1448963912215&from=EN">Regulation (EU) No 1260/2013</a> states that Commission shall also submit reports on its implementation, to the European Parliament and the Council as follows:</p> <p style="text-align: justify;">- First report by 31 December 2018.</p> <p style="text-align: justify;">- Second report by 31 December 2023.</p> <p style="text-align: justify;">These reports are to evaluate quality of data transmitted by Member States and EFTA countries and data collection methods used and, if appropriate, should be accompanied by proposals designed for future improvement of legal framework for population and vital events statistics under this Regulation.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="relevance"></a><a name="relevance1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">12. Relevance</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="user_needs"></a>12.1. Relevance - User Needs</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">Statistics on deaths and demographic statistics in general are widely used for planning actions and for monitoring and evaluating programmes in a number of social and economic policy areas. These include:</p> 
+        <ul> 
+         <li style="text-align: justify;">Policies on families;</li> 
+         <li style="text-align: justify;">Evaluating the economic impact of demographic change;</li> 
+         <li style="text-align: justify;">Analysis of population ageing and its effects on sustainability and welfare;</li> 
+         <li style="text-align: justify;">Calculating 'per capita' indicators;</li> 
+         <li style="text-align: justify;">Determining the number of votes each Member State has in qualified majority voting in the Council, for EU decision-making.</li> 
+        </ul></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="user_sat"></a>12.2. Relevance - User Satisfaction</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>No user' satisfaction surveys are carried out.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="completeness"></a>12.3. Completeness</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Data completeness depends on the availability of data from the national statistical institutes.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="accuracy"></a><a name="accuracy1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">13. Accuracy</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="accuracy_overall"></a>13.1. Accuracy - overall</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not available.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="sampling_err"></a>13.2. Sampling error</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="nonsampling_err"></a>13.3. Non-sampling error</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="timeliness_punct"></a><a name="timeliness_punct1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">14. Timeliness and punctuality</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="timeliness"></a>14.1. Timeliness</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>For information on the timeliness of data release, see <strong>8.1</strong> <strong>Release calendar.</strong></p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="punctuality"></a>14.2. Punctuality</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="coher_compar"></a><a name="coher_compar1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">15. Coherence and comparability</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="compar_geo"></a>15.1. Comparability - geographical</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>The recommended definition of the population, in line with the Regulation 1260/2013, is the 'usually resident population' and means all the persons having their usual residence in a Member State at the reference time. In accordance with this concept, the following persons are considered to be usually residents of the geographical area in question: those who have lived in their place of usual residence for a continuous period of at least 12 months before the reference date or those who arrived in their place of usual residence during the 12 months before the reference date with the intention of staying there for at least one year. Where the circumstances described above cannot be established, 'usual residence' can be taken to mean the place of legal or registered residence.</p> <p style="text-align: justify;">According to Regulation 1260/2013, deaths statistics should refer to the same concept used for population statistics. If population is counted under the usual residence definition, then the deaths should be those originating from usually resident population. The metadata information sent by the countries confirms that deaths statistics are consistent in definition with the population from which they originate (see metadata information on <a href="http://ec.europa.eu/eurostat/cache/metadata/en/demo_pop_esms.htm">Population</a> for comparison).</p> 
+        <table style="width: 100%;" border="1" cellspacing="1" cellpadding="3"> 
+         <tbody> 
+          <tr> 
+           <td colspan="3" width="100%"> <p><strong>Classification of the deaths by residence</strong></p> </td> 
+          </tr> 
+          <tr> 
+           <td width="32%"> <p><strong>Usual Residence</strong></p> </td> 
+           <td width="32%"> <p><strong>Legal Residence</strong></p> </td> 
+           <td width="34%"> <p><strong>Registered Residence</strong></p> </td> 
+          </tr> 
+          <tr> 
+           <td width="32%"> <p>BG, CZ, CY, DE, EE, EL, ES, FI, FR, HR, HU, IE, IT, LT, LU, LV, ME, MT, PL, PT, RO, RS, SI, SK, UK</p> </td> 
+           <td width="32%"> <p>CH, LI</p> </td> 
+           <td width="34%"> <p>AT, BE, CZ, DE, DK, ES, IS, ME, NL, NO, SE, TR</p> </td> 
+          </tr> 
+         </tbody> 
+        </table></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="compar_time"></a>15.2. Comparability - over time</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">Breaks in data series could compromise comparability over time. Any breaks in population series due to changes in methodology and data processing or revisions to population counts reported by the countries in question are documented in the Eurostat database using flag <strong>b</strong> (break in series).</p> <p style="text-align: justify;">The population data for 2011 and beyond take into account the results of the latest population census (held in 2011). The time series of populations between the previous census and 2011 was revised by some countries at the end of 2013, taking Eurostat’s recommendation into account (for more information about data revision per country, see <strong>17. Data revision</strong>).</p> <p style="text-align: justify;">Over time, certain countries have been subject to geographical changes (see below):</p> 
+        <ul> 
+         <li style="text-align: justify;">FX stands for Metropolitan France, including Corsica and excluding the overseas departments (DOM).</li> 
+         <li style="text-align: justify;">FR stands for France as a whole, including the overseas departments (DOM). Data on Saint Barthelemey are excluded as of 1.1.2012. Data on Mayotte are included, starting with the statistics on vital events for the reference year 2014 and the statistics on population on 1.1.2015.</li> 
+         <li style="text-align: justify;">The European geographical aggregates (EU, EA and EEA) include FX up to 1997 and FR from 1998 onwards. This change is indicated by flag <strong>b</strong> (break in series) in the EU statistics for 1998.</li> 
+         <li style="text-align: justify;">The time series for Germany (DE_TOT) refer to the Federal Republic of Germany after 3 October 1990.</li> 
+         <li style="text-align: justify;">As of 1.1.1975, data for Cyprus (CY) refer to the government-controlled area;</li> 
+         <li style="text-align: justify;">Up to 1.1.2000, population data for Malta (MT) refer to the Maltese population only. However, as of 2001 figures also include foreign residents. This is indicated by flag <strong>b</strong> (break in series) in the figures for 2001.</li> 
+         <li style="text-align: justify;">As of 1.1.2010, the statistics on the permanent resident population of Switzerland (CH) include all people in the asylum process who have been residing in Switzerland for 12 months or more. The change is reflected in Eurostat population figures starting with populations reported on 1.1.2011.</li> 
+         <li style="text-align: justify;">As of 1.1.2011, Belgium (BE) national population figures refer to all registered people, including asylum seekers.</li> 
+         <li style="text-align: justify;">As of 1.1.2010, Poland (PL) revised the methodology used to estimate the usually resident population. This is indicated by a flag b (break in series) in the figures for 2010.</li> 
+         <li style="text-align: justify;">As of 1.1.2012, the reported Estonian (EE) population includes the migration component, whereas this was not included before.</li> 
+        </ul></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="coher_x_dom"></a>15.3. Coherence - cross domain</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="coher_internal"></a>15.4. Coherence - internal</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>See <strong>8.1. Release calendar<em>.</em></strong></p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="cost_burden"></a><a name="cost_burden1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">16. Cost and Burden</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="data_rev"></a><a name="data_rev1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">17. Data revision</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="rev_policy"></a>17.1. Data revision - policy</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">Eurostat’s policy on demographic statistics is to carry out updates as soon it receives data and at any time during the year.</p> <p style="text-align: justify;">In conformity with <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0205&qid=1449066734185&from=EN" target="_blank">Regulation (EC) No 205/2014</a>, Member States shall inform the Commission (Eurostat) of any planned revision of the data supplied no later than 1 week before the release of the revised data in the Member State concerned. Subsequently, countries shall send any revised data to Eurostat no later than one week after the release of these data.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="rev_practice"></a>17.2. Data revision - practice</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">Deaths statistics are continuously revised according to the most recent data released and sent to Eurostat by the national statistical institutes. The geographical aggregates and the demographic indicators are revised accordingly.</p> <p style="text-align: justify;">The status of the data is indicated by using flags (<strong>p</strong> = provisional data; <strong>e</strong> = estimated; <strong>b</strong> = break in time series; <strong>f</strong> = forecast).</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="stat_process"></a><a name="stat_process1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">18. Statistical processing</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="source_type"></a>18.1. Source data</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Data are collected by Eurostat from the national statistical institutes.</p> <p>The Table below shows the sources of deaths statistics declared by the NSIs:</p> 
+        <table style="width: 642px;" border="1" cellspacing="1" cellpadding="3"> 
+         <tbody> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center"> </p> </td> 
+           <td nowrap="nowrap" width="96%"> <p><strong>Data sources on deaths statistics by country</strong></p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">AT</p> </td> 
+           <td width="96%"> <p> Civil Registry Offices. From 1/11/2014 onwards Central Civil Register.</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">BE</p> </td> 
+           <td width="96%"> <p> Belgian population register</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">BG</p> </td> 
+           <td width="96%"> <p>Population register</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">BY</p> </td> 
+           <td width="96%"> <p>Administrative data from death records filled in by civil registration authorities</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">CH</p> </td> 
+           <td width="96%"> <p>Civil status registers</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">CY</p> </td> 
+           <td width="96%"> <p> Civil Registry and Migration Department, Health Monitoring Unit (Ministry of Health)</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">CZ</p> </td> 
+           <td width="96%"> <p>Statistical reports on death provided to the CZSO by Registry Offices</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">DE</p> </td> 
+           <td width="96%"> <p>Information not provided</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">DK</p> </td> 
+           <td width="96%"> <p>Population register</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">EE</p> </td> 
+           <td width="96%"> <p>Population Register and Estonian Causes of Death Registry</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">EL</p> </td> 
+           <td width="96%"> <p>Administrative records (Death Certificates) provided by Registries from all around country</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">ES</p> </td> 
+           <td width="96%"> <p>Medical Death Certificate/Statistical Death Bulletin</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">FI</p> </td> 
+           <td width="96%"> <p>Population Information System of Population Register Centre</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">FR</p> </td> 
+           <td width="96%"> <p>Civil status</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">HR</p> </td> 
+           <td width="96%"> <p>Registers of deaths kept in registrars’ offices of every particular area</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">HU</p> </td> 
+           <td width="96%"> <p>Civil registrars and health institutions</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">IE</p> </td> 
+           <td width="96%"> <p>General Registration Office</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">IS</p> </td> 
+           <td width="96%"> <p>Population register(s)</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">IT</p> </td> 
+           <td width="96%"> <p>Deregistration for death in the Municipal Population Registers (Anagrafi)</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">LI</p> </td> 
+           <td width="96%"> <p>Central Population Register</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">LT</p> </td> 
+           <td width="96%"> <p>Central database of the Population Register managed by the State Enterprise Centre of Registers</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">LU</p> </td> 
+           <td width="96%"> <p>Municipalities</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">LV</p> </td> 
+           <td width="96%"> <p>Data from registers filled in by Civil Registry Offices</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">ME</p> </td> 
+           <td width="96%"> <p>Register of deaths This data source is managed by the Ministry of Interiors</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">MT</p> </td> 
+           <td width="96%"> <p>Administrative data</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">NL</p> </td> 
+           <td width="96%"> <p>Population register</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">NO</p> </td> 
+           <td width="96%"> <p>Central population register</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">PL</p> </td> 
+           <td width="96%"> <p>Vital Statistics - administrative data</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">PT</p> </td> 
+           <td width="96%"> <p>Administrative records provided by Civil Registration Offices/Ministry of Justice plus information provided by individuals at the time of death registration act</p> </td> 
+          </tr> 
+          <tr> 
+           <td width="3%"> <p align="center">RO</p> </td> 
+           <td width="96%"> <p>Administrative data source: Public Community Services for Persons Records within the City Halls of all localities</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">RS</p> </td> 
+           <td width="96%"> <p>Registrars of deaths kept in registrars' offices of every particular area</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">SE</p> </td> 
+           <td width="96%"> <p>The Total Population Register</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">SI</p> </td> 
+           <td width="96%"> <p>National Institute of Public Health, Central Population Register</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">SK</p> </td> 
+           <td width="96%"> <p>Exhaustive monthly survey covering all deaths of persons with permanent residence in the Slovak Republic. Statistical Report on Deaths (OBYV 3-12)</p> </td> 
+          </tr> 
+          <tr> 
+           <td nowrap="nowrap" width="3%"> <p align="center">UK</p> </td> 
+           <td width="96%"> <p>Mortality statistics are based on the information collected when a death is registered</p> </td> 
+          </tr> 
+         </tbody> 
+        </table></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="freq_coll"></a>18.2. Frequency of data collection</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Data are collected annually.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="coll_method"></a>18.3. Data collection</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">The annual data collections are carried out by Eurostat using data provided by the national statistical institutes in order to publish updated statistics. The demographic data collections contain both mandatory and voluntary data (see <strong>3.1. Data description</strong>).</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="data_validation"></a>18.4. Data validation</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">Eurostat checks raw data sent by the national statistical offices to see if the total of a variable is consistent with the breakdown by different variables. It also does cross-checks to see if different breakdowns of the same variable are consistent.</p> <p style="text-align: justify;">Based on the detailed collected data, Eurostat calculates a series of demographic statistics. The demographic indicators calculated in the standard way are validated in the context of the available time series. The validation rules include checking the plausibility of the most up-to-date annual value and two consecutive annual values. Mathematical checks are carried out using standard deviations and the weighted average.</p> <p style="text-align: justify;">For more information on data validation, see <a href="http://ec.europa.eu/eurostat/data/data-validation">http://ec.europa.eu/eurostat/data/data-validation</a>.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="data_comp"></a>18.5. Data compilation</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p style="text-align: justify;">Based on the detailed national figures on population and other demographic events sent to Eurostat by the national statistical institutes, Eurostat derives/calculates demographic indicators and geographical aggregates using common calculation methods.</p> <p style="text-align: justify;"><strong>Geographical aggregation</strong></p> <p style="text-align: justify;">For statistics on live births expressed in numbers, geographical aggregation is done by arithmetical sum if no values are missing from the components of the geographical aggregate in question. Otherwise the geographical aggregates are not calculated.</p> <p style="text-align: justify;">For mortality rates, the geographical aggregates are calculated using the same method as for an individual country. The input for calculation is the aggregated data described above.</p></td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Level2"><a name="adjustment"></a>18.6. Adjustment</td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not applicable.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="comment_dset"></a><a name="comment_dset1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">19. Comment</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><p>Not available.</p></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="relatedmd"></a><a name="relatedmd1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">Related metadata</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><a href="http://ec.europa.eu/eurostat/cache/metadata/EN/demo_fer_esms.htm" target="_blank">demo_fer_esms</a> - Fertility<br /> <a href="http://ec.europa.eu/eurostat/cache/metadata/EN/demo_nup_esms.htm" target="_blank">demo_nup_esms</a> - Marriages and divorces<br /> <a href="http://ec.europa.eu/eurostat/cache/metadata/EN/demo_pop_esms.htm" target="_blank">demo_pop_esms</a> - Population<br /> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <p class="DocCommon"> <br /> </p> 
+    <table width="99%" cellpadding="0" cellspacing="0" border="0" class="TblBottom"> 
+     <tbody>
+      <tr> 
+       <td class="Cl-Level1" colspan="2"> <a name="annex"></a><a name="annex1497012073603"></a>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td class="Cl-Level1-NoBorder">Annexes</td>
+           <td align="right"><a class="DocCommon" href="#">Top</a></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+      </tr> 
+      <tr> 
+       <td class="Cl-Content"><a title="demo_mor_esms_an1.pdf" href="Annexes/demo_mor_esms_an1.pdf" target="_blank">Annex - Eurostat Period Life Table - Methodology</a> <br /> <a title="demo_mor_esms_an2.pdf" href="Annexes/demo_mor_esms_an2.pdf" target="_blank">Statistics on deaths_Documentation on methodology by country_Annex to metadata</a> <br /> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+   </div> 
+  </div>   
+ </body>
+</html>
