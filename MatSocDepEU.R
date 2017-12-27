@@ -2,6 +2,8 @@
 
 library(data.table)
 library(plyr)
+library(e1071)
+
 
 # Raw Data
 data.MSD <- read.csv(file="ilc_mdsd03.csv", header=TRUE, sep=",", stringsAsFactors=FALSE)
@@ -73,11 +75,18 @@ df <- df[complete.cases(df), ]
 colnames(df) <- c("Country", "MSD_1", "MSD_2", "MSD_3", "LE_1", "LE_2", "LE_3")
 df
 
-df$MSD_1 <- as.numeric(as.character(df$MSD_1))
-hist(df$MSD_1)
+svm(df$MSD_1~., data=df)
 
+Country <- df$Country
+MSD_1 <- as.numeric(as.character(df$MSD_1))
+MSD_2 <- as.numeric(as.character(df$MSD_2))
+MSD_3 <- as.numeric(as.character(df$MSD_3))
+LE_1 <- as.numeric(as.character(df$LE_1))
+LE_2 <- as.numeric(as.character(df$LE_2))
+LE_3 <- as.numeric(as.character(df$LE_3))
 
-
+df1 <- data.frame(Country, MSD_1, MSD_2, MSD_3, LE_1, LE_2, LE_3)
+df1
 
 
 
